@@ -2,10 +2,6 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import datetime
-import plotly.express as px
-import plotly.figure_factory as ff
-import seaborn as sns
-import matplotlib.pyplot as plt
 from sklearn.pipeline import Pipeline
 import warnings
 warnings.filterwarnings("ignore")
