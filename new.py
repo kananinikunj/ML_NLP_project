@@ -25,7 +25,7 @@ st.set_page_config(layout="wide")
 
 @st.cache_data()
 def get_data():
-    df = pd.read_csv("/Users/kkmobile/Desktop/ml project/diamond project ml/diamonds.csv")
+    df = pd.read_csv("diamonds.csv")
     df = df.drop(['Unnamed: 0'], axis=1)
     return df
 Data = get_data()
